@@ -12,7 +12,7 @@ import '../index.css'
 export default function Body_content() {
     return (
         <Box className='body' sx={{display:'flex', flexDirection:'column',color:'black',overflow:'hidden', padding:'50px 100px',gap:'30px'}}>
-            <div className="body_section_one desktop_only">
+            <div className="body_section_one">
                 <div className="description_company">
                     <h2>Une expérience qui fait la différence !</h2>
                     <p>Depuis 2015, une expertise concrète s’est forgée au cœur des réalités africaines et internationales. Fort d’un parcours consolidé par des missions à fort enjeu dans plus de 6 pays, notre équipe regroupe des experts-comptables diplômés, anciens managers de grands cabinets internationaux.<br/>
@@ -41,7 +41,7 @@ export default function Body_content() {
 
 
 
-            <div className="body_section_two desktop_only">
+            <div className="body_section_two ">
                 <div className="description_company">
                     <h2>Votre partenaire de confiance en Afrique de l'Ouest et du Centre.</h2>
                     <p>Notre présence sur le terrain est notre plus grande force. Avec 5 bureaux déjà établis et 2 en cours de création, 
