@@ -61,6 +61,8 @@ h1 {
 }
 
 button {
+  position: relative;
+  z-index: 40!important;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -145,7 +147,7 @@ ul a {
 
 
 .hero h1{
-  z-index: 80;
+  z-index: 60!important;
   font-family: 'inter';
   margin: 0;
   font-weight: 300;
@@ -166,7 +168,8 @@ ul a {
 
 
 .btn{
-    z-index: 80;
+    position: relative;
+    z-index: 60!important;
     padding: 0 55% 0 0px;
     font-weight: 300;
     font-size: 14px !important;
@@ -1262,6 +1265,7 @@ span.secteur_item:hover{
   .mobile_only{
     display: none;
   }
+
 
   .mobile_navbar{
   display: none;

@@ -19,6 +19,8 @@ export default function Navbar() {
                     const [toggle, setToggle] = useState({toggles:false});
                     const cancelRef = useRef(null);
                     const [activeLink, setActiveLink] = useState(null);
+                    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+                    const [mobileSubMenuOpen, setMobileSubMenuOpen] = useState(false);
 
     return (
         <Box>
@@ -60,10 +62,83 @@ export default function Navbar() {
             <Box className="mobile_navbar" sx={{padding:'20px 20px 20px 0px',boxSizing:'border-box', backgroundColor:'#ffffff26',borderBottom:'0.5px solid #ffffff6e',zIndex:80,position:'relative'}}>
                 <Box className="navbar-content" sx={{display:'flex', flexDirection:'row', justifyContent:'space-between', alignItems:'center', width: '100%', '& button': { m: 1 }, margin:'0px', padding:'0 0px'}}>
                     <div className="logo_2bn nav_item" style={{padding:'0 0px 0 50px'}}><h2 style={{fontSize:'16px'}}><Link to="/"><img src={Logo} alt="2BN International Logo" width="100%" style={{height: '40px'}} /></Link></h2></div>
-                    <div className="menu_mobile">
+                    <div className="menu_mobile" onClick={() => setMobileMenuOpen(true)} style={{cursor:'pointer'}}>
                         <img src={hamburger} alt="menu" width="70%"/>
                     </div>
                 </Box>
+
+                {/* Menu mobile slider */}
+                <Box sx={{
+                    position: 'fixed',
+                    top: 0,
+                    right: mobileMenuOpen ? 0 : '-100%',
+                    width: '80%',
+                    maxWidth: '400px',
+                    height: '100vh',
+                    backgroundColor: '#032859',
+                    transition: 'right 0.3s ease-in-out',
+                    zIndex: 999,
+                    overflowY: 'auto',
+                    padding: '20px'
+                }}>
+                    {/* Bouton fermeture */}
+                    <Box sx={{display:'flex', justifyContent:'flex-end', marginBottom:'30px'}}>
+                        <span onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', fontSize:'30px', cursor:'pointer'}}>×</span>
+                    </Box>
+
+                    {/* Menu items */}
+                    <Box sx={{display:'flex', flexDirection:'column', gap:'20px'}}>
+                        <Link to="/" onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', textDecoration:'none', fontSize:'16px', padding:'10px 0', borderBottom:'1px solid #ffffff33'}}>Accueil</Link>
+                        
+                        <Link to="/about" onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', textDecoration:'none', fontSize:'16px', padding:'10px 0', borderBottom:'1px solid #ffffff33'}}>A propos</Link>
+                        
+                        <Box>
+                            <Box onClick={() => setMobileSubMenuOpen(!mobileSubMenuOpen)} sx={{color:'#fff', fontSize:'16px', padding:'10px 0', borderBottom:'1px solid #ffffff33', cursor:'pointer', display:'flex',paddingLeft:'50px',gap:2,justifyContent:'center', alignItems:'center'}}>
+                                <span>Nos missions</span>
+                                <img src={icon_menu} alt="icon_menu" width='20px' style={{transform: mobileSubMenuOpen ? 'rotate(180deg)' : 'rotate(0deg)', transition:'transform 0.3s'}} />
+                            </Box>
+                            
+                            {/* Sous-menu */}
+                            <Box sx={{
+                                display: mobileSubMenuOpen ? 'flex' : 'none',
+                                flexDirection: 'column',
+                                gap: '10px',
+                                paddingLeft: '20px',
+                                marginTop: '10px'
+                            }}>
+                                <Link to="/assurances" onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', textDecoration:'none', fontSize:'14px', padding:'8px 0'}}>Secteur assurances</Link>
+                                <Link to="/petrole" onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', textDecoration:'none', fontSize:'14px', padding:'8px 0'}}>Secteur Pétrolier & Minier</Link>
+                                <Link to="/energy_verte" onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', textDecoration:'none', fontSize:'14px', padding:'8px 0'}}>Secteur Énergie & Conseil Vert</Link>
+                                <Link to="/industries" onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', textDecoration:'none', fontSize:'14px', padding:'8px 0'}}>Industries & Services</Link>
+                            </Box>
+                        </Box>
+                        
+                        <Link to="/carriere" onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', textDecoration:'none', fontSize:'16px', padding:'10px 0', borderBottom:'1px solid #ffffff33'}}>Carrière</Link>
+                        
+                        {/* Boutons contact */}
+                        <Box sx={{display:'flex', flexDirection:'column', gap:'15px', marginTop:'20px'}}>
+                            <Link to="/schedule" onClick={() => setMobileMenuOpen(false)}>
+                                <Button variant="contained" fullWidth sx={{fontSize:'12px', padding:'10px', borderRadius:'50px', backgroundColor:'#fff', color:'#032859'}}>Rencontrez-nous</Button>
+                            </Link>
+                            <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
+                                <Button variant="contained" fullWidth sx={{fontSize:'12px', padding:'10px', borderRadius:'50px', backgroundColor:'#fff', color:'#032859'}}>Contactez-nous</Button>
+                            </Link>
+                        </Box>
+                    </Box>
+                </Box>
+
+                {/* Overlay */}
+                {mobileMenuOpen && (
+                    <Box onClick={() => setMobileMenuOpen(false)} sx={{
+                        position: 'fixed',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100vh',
+                        backgroundColor: 'rgba(0,0,0,0.5)',
+                        zIndex: 998
+                    }} />
+                )}
             </Box>
         </Box>
     )
