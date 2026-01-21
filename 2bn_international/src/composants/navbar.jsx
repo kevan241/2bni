@@ -43,7 +43,7 @@ export default function Navbar() {
                             <li><Link to="/carriere">Carrière</Link></li>
                         </ul>
                     </div>
-                        <div className="nav_item nav_contact_btn" style={{display:'grid',placeItems:'center', gridTemplateColumns:'repeat(2, 1fr)',textAlign:'center',gap:'0',textAlign:'right',padding:'0 50px 0 0px'}}>
+                        <div className="nav_item nav_contact_btn" style={{display:'grid',placeItems:'center', gridTemplateColumns:'repeat(2, 1fr)',textAlign:'center',gap:'0',textAlign:'right',padding:'0 50px 0 0px',color:'#ffff'}}>
                             <Link to="/schedule"><Button variant="contained" size="small" sx={{fontSize:'9px', padding:'6px 13px 4px 13px!important',minWidth: '100px', borderRadius:'50px',backgroundColor:'#03285973'}}>Rencontrez-nous</Button></Link>
                            <Link to="/contact" className="right_button"><Button variant="contained" size="small" sx={{fontSize:'9px', padding:'6px 13px 4px 13px!important',minWidth: '100px', borderRadius:'50px',backgroundColor:'#03285973'}}>Contactez-nous</Button></Link>
                         </div>

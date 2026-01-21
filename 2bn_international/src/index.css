@@ -1509,6 +1509,10 @@ p.carriere {
     gap: 0px;
 }
 
+.body {
+    padding: 20px 12px !important;
+}
+
 .body_section_two .description_company {
     width: 100%;
     color: white;
@@ -1611,7 +1615,7 @@ p.carriere {
     .hero h1 {
         line-height: 35px;
         font-size: 25px !important;
-        font-weight: 800;
+        font-weight: 700;
         padding: 40% 18% 0 0px;
     }
 
@@ -2217,6 +2221,10 @@ ease-in-out;
     gap: 100px;
 }
 
+.body {
+    padding: 20px 12px !important;
+}
+
 
 .css-16us8lv {
     display: -webkit-box;
@@ -2616,7 +2624,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
     z-index: 80;
     font-family: 'inter';
     margin: 0;
-    font-weight:800;
+    font-weight:700;
     padding: 40% 20% 0 0px;
     line-height: 35px;
     font-size: 25px !important;
