@@ -39,6 +39,13 @@ a {
   text-decoration: inherit;
 }
 
+.btn a {
+  z-index: 77!important;
+  font-weight: 500;
+  color: #ffffff!important;
+  text-decoration: inherit;
+}
+
 .navbar a {
     z-index: 999;
   width: 100%;
@@ -1604,7 +1611,7 @@ p.carriere {
     .hero h1 {
         line-height: 35px;
         font-size: 25px !important;
-        font-weight: bold;
+        font-weight: 800;
         padding: 40% 18% 0 0px;
     }
 
@@ -2134,7 +2141,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
     .hero h1 {
         line-height: 35px;
         font-size: 25px !important;
-        font-weight: bold;
+        font-weight: 800;
         padding: 40% 18% 0 0px;
     }
 
@@ -2609,7 +2616,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
     z-index: 80;
     font-family: 'inter';
     margin: 0;
-    font-weight: bold;
+    font-weight:800;
     padding: 40% 20% 0 0px;
     line-height: 35px;
     font-size: 25px !important;
