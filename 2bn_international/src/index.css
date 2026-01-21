@@ -39,18 +39,11 @@ a {
   text-decoration: inherit;
 }
 
-.btn a {
-  z-index: 77!important;
-  font-weight: 500;
-  color: #ffffff!important;
-  text-decoration: inherit;
-}
-
 .navbar a {
     z-index: 999;
   width: 100%;
   font-weight: 500;
-  color: #646cff;
+  color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
@@ -1510,7 +1503,7 @@ p.carriere {
 }
 
 .body {
-    padding: 20px 12px !important;
+    padding: 5px 12px !important;
 }
 
 .body_section_two .description_company {
@@ -2222,7 +2215,7 @@ ease-in-out;
 }
 
 .body {
-    padding: 20px 12px !important;
+    padding: 5px 12px !important;
 }
 
 
