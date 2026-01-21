@@ -43,7 +43,7 @@ a {
     z-index: 999;
   width: 100%;
   font-weight: 500;
-  color: #ffffff;
+  color: #ffffff!important;
   text-decoration: inherit;
 }
 a:hover {
