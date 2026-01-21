@@ -33,7 +33,7 @@
 }
 
 a {
-  z-index: 999;
+  z-index: 77!important;
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -114,6 +114,7 @@ ul a {
 */*controler slide*/
 .navigator_slide {
   display: flex;
+  z-index: 70!important;
   flex-direction: column;
   gap: 8px;
 }
@@ -169,7 +170,6 @@ ul a {
 
 .btn{
     position: relative;
-    z-index: 60!important;
     padding: 0 55% 0 0px;
     font-weight: 300;
     font-size: 14px !important;
@@ -266,6 +266,20 @@ ul a {
   aspect-ratio: 16 / 9;
   overflow: hidden;
   background-image: url('../public/assets/img/company_banner.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+
+}
+
+
+.body_section_two  .image_company {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-image: url('../public/assets/img/afrique.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1485,7 +1499,7 @@ p.carriere {
 
   .body_section_two {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     overflow: hidden;
     gap: 0px;
@@ -1567,7 +1581,7 @@ p.carriere {
 
 .body_section_one {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         gap: 10px!important;
     }
@@ -1599,6 +1613,7 @@ p.carriere {
 
 .hero p {
     line-height: 17px;
+    z-index: 74!important;
     font-size: 13px !important;
     padding: 0 28% 0 0px;
 }
@@ -1663,7 +1678,7 @@ ease-in-out;
 
     .body_section_one {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     gap: 100px;
 }
@@ -2014,7 +2029,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 
   .body_section_two {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     overflow: hidden;
     gap: 0px;
@@ -2096,7 +2111,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 
 .body_section_one {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         gap: 10px!important;
     }
@@ -2128,6 +2143,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 
 .hero p {
     line-height: 17px;
+    z-index: 74!important;
     font-size: 13px !important;
     padding: 0 28% 0 0px;
 }
@@ -2192,7 +2208,7 @@ ease-in-out;
 
     .body_section_one {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     gap: 100px;
 }
@@ -2441,6 +2457,27 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
     font-size: 10px;
     font-weight: 700;
 }
+
+.hero p {
+    line-height: 17px;
+    z-index: 74!important;
+    font-size: 13px !important;
+    padding: 0 28% 0 0px;
+}
+
+  .body_section_two {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    overflow: hidden;
+    gap: 0px;
+}
+
+    .body_section_one {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
 
 .first_section_container {
     display: flex;
