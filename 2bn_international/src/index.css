@@ -1604,7 +1604,7 @@ p.carriere {
     .hero h1 {
         line-height: 35px;
         font-size: 25px !important;
-        font-weight: 600;
+        font-weight: bold;
         padding: 20% 18% 0 0px;
     }
 
@@ -2134,7 +2134,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
     .hero h1 {
         line-height: 35px;
         font-size: 25px !important;
-        font-weight: 600;
+        font-weight: bold;
         padding: 20% 18% 0 0px;
     }
 
@@ -2609,7 +2609,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
     z-index: 80;
     font-family: 'inter';
     margin: 0;
-    font-weight: 300;
+    font-weight: bold;
     padding: 20% 20% 0 0px;
     line-height: 35px;
     font-size: 25px !important;
