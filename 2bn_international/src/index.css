@@ -152,7 +152,7 @@ ul a {
   font-family: 'inter';
   margin: 0;
   font-weight: 300;
-  padding: 0 55% 0 0px;
+  padding: 8% 55% 0 0px;
   line-height: 45px;
   font-size: 35px!important;
   text-align: left!important;
@@ -1608,8 +1608,7 @@ p.carriere {
         line-height: 35px;
         font-size: 25px !important;
         font-weight: 600;
-        margin-top: -10%!important;
-        padding: 0 18% 0 0px;
+        padding: -5% 18% 0 0px;
     }
 
 .hero p {
@@ -2139,8 +2138,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
         line-height: 35px;
         font-size: 25px !important;
         font-weight: 600;
-        margin-top: -10%!important;
-        padding: 0 18% 0 0px;
+        padding: -5% 18% 0 0px;
     }
 
 .hero p {
@@ -2615,7 +2613,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
     font-family: 'inter';
     margin: 0;
     font-weight: 300;
-    padding: 0 18% 0 0px;
+    padding: 8% 20% 0 0px;
     line-height: 35px;
     font-size: 25px !important;
     text-align: left !important;
