@@ -134,7 +134,7 @@ ul a {
   flex-direction: column;
   justify-content: center;
   align-items: baseline;
-  padding: 50px 100px;
+  padding: 10px 100px;
 }
 
 .hero {
@@ -1508,7 +1508,7 @@ p.carriere {
 .body_section_two .description_company {
     width: 100%;
     color: white;
-    padding: 50px 35px;
+    padding: 5px 15px;
     text-align: left;
 }
 
@@ -1608,14 +1608,14 @@ p.carriere {
         line-height: 35px;
         font-size: 25px !important;
         font-weight: 600;
-        padding: 0 28% 0 0px;
+        padding: 0 18% 0 0px;
     }
 
 .hero p {
     line-height: 17px;
     z-index: 74!important;
     font-size: 13px !important;
-    padding: 0 28% 0 0px;
+    padding: 0 18% 0 0px;
 }
 
 .navigator_slide {
@@ -2038,7 +2038,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 .body_section_two .description_company {
     width: 100%;
     color: white;
-    padding: 50px 35px;
+    padding: 5px 15px;
     text-align: left;
 }
 
@@ -2138,14 +2138,14 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
         line-height: 35px;
         font-size: 25px !important;
         font-weight: 600;
-        padding: 0 28% 0 0px;
+        padding: 0 18% 0 0px;
     }
 
 .hero p {
     line-height: 17px;
     z-index: 74!important;
     font-size: 13px !important;
-    padding: 0 28% 0 0px;
+    padding: 0 18% 0 0px;
 }
 
 .navigator_slide {
@@ -2385,7 +2385,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
 
 
 .slide_text{
-  display:none;
+  display:block;
 }
 
 .industry_section_one {
@@ -2462,7 +2462,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
     line-height: 17px;
     z-index: 74!important;
     font-size: 13px !important;
-    padding: 0 28% 0 0px;
+    padding: 0 18% 0 0px;
 }
 
   .body_section_two {
@@ -2577,7 +2577,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
 .body_section_two .description_company {
     width: 100%;
     color: white;
-    padding: 50px 35px;
+    padding: 5px 15px;
     text-align: left;
 }
 
@@ -2594,7 +2594,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
 .description_company {
     width: 100%;
     text-align: left;
-    padding: 45px 35px;
+    padding: 5px 15px;
     box-sizing: border-box;
     border: 0.5px solid rgba(0, 0, 0, 0.119);
     border-radius: 0 0 10px 10px;
@@ -2613,7 +2613,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
     font-family: 'inter';
     margin: 0;
     font-weight: 300;
-    padding: 0 30% 0 0px;
+    padding: 0 18% 0 0px;
     line-height: 35px;
     font-size: 25px !important;
     text-align: left !important;
