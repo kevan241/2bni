@@ -37,7 +37,7 @@ export default function Assurances_services() {
                 </div>
             </div>
 
-            <div className="arrow_container" style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',gap:10,width:'30%',boxSizing:'border-box',padding:'0px 13%'}}>
+            <div className="arrow_container">
                     <span onClick={() => {setCurrentIndex((currentIndex + 1) % services.length); handleAnimation();}} style={{backgroundColor:'rgb(243 243 243)',textAlign:'center',display:'flex',justifyContent:'center',alignItems:'center',cursor:'pointer'}}><img src={arrowNext} alt="flèche suivante" width='90%'/></span>
                     <span onClick={() => {setCurrentIndex((currentIndex - 1 + services.length) % services.length); handleAnimation();}} style={{backgroundColor:'rgb(243 243 243)',textAlign:'center',display:'flex',justifyContent:'center',alignItems:'center',cursor:'pointer'}}><img src={arrowPrev} alt="flèche précédente" width='90%'/></span>
             </div>

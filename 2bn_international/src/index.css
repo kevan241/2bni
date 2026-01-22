@@ -82,6 +82,19 @@ button:focus-visible {
 }
 
 
+.arrow_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0px 13%;
+}
+
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -669,6 +682,8 @@ span.circle_icon {
 
 
 .assurance_section_one{
+  margin: 40px 0px 0px;
+  padding:30px 30px;
   background-color: var(--bleu);
 }
 
@@ -1432,6 +1447,11 @@ p.carriere {
     width: 80%;
 }
 
+.assurance_section_one{
+  padding: 10px 22px;
+  margin: 25px 0px 0px;
+}
+
 
   .logo_2bn {
     padding: 0 !important;
@@ -1911,16 +1931,16 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
 
 .arrow_container{
     display: flex;
-    flex-direction: row;
+    flex-direction: row!important;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 48%;
+    width: 30%;
     box-sizing: border-box;
-    padding: 0px 13%;
+    padding: 0px 1%;
 }
 
-.contact_banner, .mobile_banner {
+.contact_banner {
         padding: 22% 20% 5% 8% !important;
     }
 

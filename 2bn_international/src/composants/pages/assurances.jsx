@@ -8,13 +8,13 @@ import '../../index.css';
 
 export default function Assurances() {
     return (
-        <Box className="body">
+        <Box>
             <div className="about_banner mobile_banner" style={{padding:'20% 0% 5% 8%',backgroundImage:`url(${Banner})`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover',textAlign:'left',color:'white',position:'relative'}}>
             <h1 style={{fontWeight:'300',position:'relative'}}>Nos missions - Secteur assurances</h1>
             </div>
 
-            <Box sx={{boxSizing:'border-box',padding:'20px 120px'}}>
-                <div className="assurance_section_one" style={{display:'flex',flexDirection:'column', boxSizing:'border-box',borderRadius:'5px',padding:'30px 30px',margin:'40px 0 0 0'}}>
+            <Box className="body" sx={{boxSizing:'border-box',padding:'20px 120px'}}>
+                <div className="assurance_section_one" style={{display:'flex',flexDirection:'column', boxSizing:'border-box',borderRadius:'5px'}}>
                     <div className="mobile circle_icon" style={{position:'relative',textAlign:'right',width:'100%'}}><img src={Cercle} alt="cercle_assurance" width='2%'/></div>
                     <div className="section_one_text_header">
                         <p>
