@@ -59,9 +59,9 @@ export default function Navbar() {
 
 
 
-            <Box className="mobile_navbar" sx={{padding:'20px 20px 20px 0px',boxSizing:'border-box', backgroundColor:'#ffffff26',borderBottom:'0.5px solid #ffffff6e',zIndex:80,position:'relative'}}>
+            <Box className="mobile_navbar" sx={{padding:'20px 20px 20px 20px',boxSizing:'border-box', backgroundColor:'#ffffff26',borderBottom:'0.5px solid #ffffff6e',zIndex:80,position:'relative'}}>
                 <Box className="navbar-content" sx={{display:'flex', flexDirection:'row', justifyContent:'space-between', alignItems:'center', width: '100%', '& button': { m: 1 }, margin:'0px', padding:'0 0px'}}>
-                    <div className="logo_2bn nav_item" style={{padding:'0 0px 0 50px'}}><h2 style={{fontSize:'16px'}}><Link to="/"><img src={Logo} alt="2BN International Logo" width="100%" style={{height: '40px'}} /></Link></h2></div>
+                    <div className="logo_2bn nav_item"><h2 style={{fontSize:'16px'}}><Link to="/"><img src={Logo} alt="2BN International Logo" width="100%" style={{height: '40px'}} /></Link></h2></div>
                     <div className="menu_mobile" onClick={() => setMobileMenuOpen(true)} style={{cursor:'pointer'}}>
                         <img src={hamburger} alt="menu" width="70%"/>
                     </div>
