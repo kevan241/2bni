@@ -16,12 +16,12 @@ export default function About() {
     const [hovered2, setHovered2] = useState({second: false});
 
     return (
-        <Box className='body' sx={{color:'black'}}>
+        <Box sx={{color:'black'}}>
            <div className="about_banner" style={{padding:'20% 0% 5% 8%',backgroundImage:`url(${Banner})`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover',textAlign:'left',color:'white',position:'relative'}}>
                 <h1 style={{fontWeight:'300',position:'relative'}}>A propos de nous</h1>
            </div>
 
-           <Box className="about_main_content">
+           <Box className="about_main_content body">
                 <div className="main_container" style={{display:'flex',flexDirection:'column'}}>
                     <div>
                         <h2 style={{textAlign:'left',padding:'20px 0px',fontWeight:'300',fontSize:'35px'}}>Une vision panafricaine du conseil et de <span className="upfront">la performance</span></h2>
