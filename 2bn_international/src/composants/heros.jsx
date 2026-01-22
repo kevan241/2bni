@@ -86,7 +86,7 @@ export default function Heros() {
                             <p className='slide_text' style={{color: 'white', textAlign: 'center', fontSize: '1rem'}}>{slide.paragraph}</p>
                             {slide.buttonText && slide.LinkTo && (
                                 <Link to={slide.LinkTo}>
-                                    <button className='btn' style={{display: 'block', margin: '20px 0', padding: '13px 35px', fontSize: '1rem'}}>
+                                    <button className='btn' style={{color:'white', display: 'block', margin: '20px 0', padding: '13px 35px', fontSize: '1rem'}}>
                                         {slide.buttonText}
                                     </button>
                                 </Link>
