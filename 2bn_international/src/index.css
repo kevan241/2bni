@@ -682,6 +682,7 @@ span.circle_icon {
 
 
 .assurance_section_one{
+  color: white;
   margin: 40px 0px 0px;
   padding:30px 30px;
   background-color: var(--bleu);
@@ -802,6 +803,7 @@ position: relative;
 
 .first_section_element02{
   background-color: var(--bleu);
+  color: white;
   padding:30px;
   flex:8;
   text-align: left;
