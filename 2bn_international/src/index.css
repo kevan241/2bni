@@ -2036,8 +2036,8 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 }
 
 .section_four {
-    margin: 70px 0 70px 0;
-    padding: 2% 10% 2% 5%;
+    margin: 0px 0 0px 0!important;
+    padding: 15% 5%!important;
     position: relative;
 }
 
@@ -2581,7 +2581,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
 
     .energy_section_two_item_slide {
     width: 100%;
-    height: 290px;
+    height: 365px;
 }
 
 .third_section_contain {
