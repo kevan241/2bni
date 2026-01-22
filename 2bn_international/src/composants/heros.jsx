@@ -8,12 +8,11 @@ import { background } from 'storybook/internal/theming';
 
 
 export default function Heros() {
-    // ... (le tableau slides ne change pas)
     const slides = [
         {
             className: 'hero hero_slide01',
             style: { background: `url(${Slider})`, backgroundSize: 'cover',backgroundPosition:'center', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'baseline'},
-            content: 'Votre partenaire comptable de confiance, ici et ailleurs', // Texte pour la slide 1
+            content: 'Votre partenaire comptable de confiance, ici et ailleurs', 
             paragraph: 'Chez 2BN International, nous aidons entreprises, professionnels et institutions à structurer leur avenir financier avec rigueur, clarté et vision. De la comptabilité locale à l’expansion internationale, nous sommes à vos côtés à chaque étape.',
             buttonText:'En savoir plus',
             LinkTo:'/about'
@@ -22,7 +21,7 @@ export default function Heros() {
         {
             className: 'hero hero_slide02',
             style: { background: `url(${Slider02})`, backgroundSize: 'cover',backgroundPosition:'center', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'baseline'},
-            content: 'Découvrez nos services', // Texte pour la slide 2
+            content: 'Découvrez nos services',
             paragraph: "2BN International vous offre une solution complète pour sécuriser, développer et pérenniser votre activité en Afrique et à l'international",
             buttonText:'En savoir plus',
             LinkTo:'/industries'
@@ -30,7 +29,7 @@ export default function Heros() {
        /* {
             className: 'hero hero_slide03',
             style: { backgroundColor: 'red' },
-            content: 'Contactez-nous !', // Texte pour la slide 3
+            content: 'Contactez-nous !', 
             paragraph: 'tt',
             buttonText:''
         }*/

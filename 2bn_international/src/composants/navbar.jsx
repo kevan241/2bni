@@ -67,7 +67,6 @@ export default function Navbar() {
                     </div>
                 </Box>
 
-                {/* Menu mobile slider */}
                 <Box sx={{
                     position: 'fixed',
                     top: 0,
@@ -81,12 +80,11 @@ export default function Navbar() {
                     overflowY: 'auto',
                     padding: '20px'
                 }}>
-                    {/* Bouton fermeture */}
+                    
                     <Box sx={{display:'flex', justifyContent:'flex-end', marginBottom:'30px'}}>
                         <span onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', fontSize:'30px', cursor:'pointer'}}>×</span>
                     </Box>
 
-                    {/* Menu items */}
                     <Box sx={{display:'flex', flexDirection:'column', gap:'20px'}}>
                         <Link to="/" onClick={() => setMobileMenuOpen(false)} style={{color:'#fff', textDecoration:'none', fontSize:'16px', padding:'10px 0', borderBottom:'1px solid #ffffff33'}}>Accueil</Link>
                         
@@ -98,7 +96,6 @@ export default function Navbar() {
                                 <img src={icon_menu} alt="icon_menu" width='20px' style={{transform: mobileSubMenuOpen ? 'rotate(180deg)' : 'rotate(0deg)', transition:'transform 0.3s'}} />
                             </Box>
                             
-                            {/* Sous-menu */}
                             <Box sx={{
                                 display: mobileSubMenuOpen ? 'flex' : 'none',
                                 flexDirection: 'column',

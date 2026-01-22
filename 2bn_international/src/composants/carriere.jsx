@@ -122,7 +122,6 @@ export default function Carriere() {
                                 required 
                             />
 
-                            {/* Champs d'upload de fichiers */}
                             <Box sx={{ margin: '20px 0' }}>
                                 <Typography variant="body1" sx={{ mb: 1, fontWeight: 500 }}>
                                 </Typography>
@@ -182,7 +181,7 @@ export default function Carriere() {
                                 variant="outlined"
                                 fullWidth
                                 multiline
-                                rows={6}  // Nombre de lignes visibles
+                                rows={6} 
                                 sx={{ margin: '20px 0' }}
                                 placeholder="Parlez-nous de votre parcours et de vos motivations..."
                             />

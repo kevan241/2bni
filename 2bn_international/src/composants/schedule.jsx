@@ -2,20 +2,20 @@ import React, { useState } from "react";
 import { Box, TextField, Button, MenuItem, Typography, Paper } from "@mui/material";
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker'; // Composant Date & Heure
-import dayjs from 'dayjs'; // La librairie de gestion des dates
-import 'dayjs/locale/fr'; // Importer la locale française
+import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
+import dayjs from 'dayjs'; 
+import 'dayjs/locale/fr'; 
 
-dayjs.locale('fr'); // Définir la locale par défaut à français
+dayjs.locale('fr'); 
 import Banner from '/assets/img/schedule/schedule.webp';
 import '../index.css';
 
 export default function Schedule() {
 
     const [profil, setProfil] = useState('');
-    const [isSubmitted, setIsSubmitted] = useState(false); // État pour le message de succès
-    const [selectedDateTime, setSelectedDateTime] = useState(dayjs()); // Initialisé à la date/heure actuelle
-    const [isLoading, setIsLoading] = useState(false); // État pour le chargement
+    const [isSubmitted, setIsSubmitted] = useState(false); 
+    const [selectedDateTime, setSelectedDateTime] = useState(dayjs()); 
+    const [isLoading, setIsLoading] = useState(false); 
 
     const ProfilField = [
         'Personne physique',
@@ -24,13 +24,12 @@ export default function Schedule() {
         'Institution publique'
     ];
 
-    // --- Fonction de Soumission (AJAX/Fetch) ---
     const handleSubmit = async (e) => {
-        e.preventDefault(); // *** Étape cruciale : Bloque la redirection native du formulaire ***
+        e.preventDefault(); 
         setIsLoading(true); 
 
-        const data = new FormData(e.target); // Capture les données du formulaire
-        console.log('Données envoyées:', Object.fromEntries(data)); // Debug
+        const data = new FormData(e.target); 
+        console.log('Données envoyées:', Object.fromEntries(data));
 
 
         try {
@@ -42,9 +41,8 @@ export default function Schedule() {
             }
             });
 
-            // Gère le succès si le statut est 200 ou 422 (attendu pour Formsubmit en mode AJAX)
             if (response.ok || response.status === 200 || response.status === 422) {
-                setIsSubmitted(true); // Affiche le message de succès
+                setIsSubmitted(true);
             } else {
                 alert("Une erreur est survenue lors de l'envoi.");
             }
@@ -52,11 +50,10 @@ export default function Schedule() {
             console.error("Erreur de soumission:", error);
             alert("Erreur de connexion. Veuillez réessayer.");
         } finally {
-        setIsLoading(false); // AJOUTEZ CETTE LIGNE
+        setIsLoading(false);
     }
     };
     
-    // --- Message de Succès ---
     const SuccessMessage = (
         <Paper elevation={3} sx={{ padding: 4, textAlign: 'center', backgroundColor: '#032859', mt: 3, mb: 3 }}>
             <Typography  className="sucessMessage" variant="h5" color="success.main" gutterBottom>
@@ -87,8 +84,7 @@ export default function Schedule() {
                         <input type="hidden" name="_template" value="table" />
                         <input type="hidden" name="_cc" value="pierre.ebaneth@2bni.ga,lady.jarod@2bni.ga" />
 
-                            {/* 2. Champs essentiels ajoutés pour que le formulaire soit fonctionnel */}
-                                                        <TextField 
+                            <TextField 
                                 select 
                                 label="profils" 
                                 name="profils" 
@@ -144,10 +140,8 @@ export default function Schedule() {
                                     name="Date et Heure du Rendez-vous" 
                                     value={selectedDateTime.format('DD/MM/YYYY HH:mm')} 
                                 />
-                            {/* 3. Le select field original */}
 
 
-                            {/* 4. Ajout du bouton d'envoi */}
                             <Button className="schedule_button"
                                 variant="contained" 
                                 type="submit" 
