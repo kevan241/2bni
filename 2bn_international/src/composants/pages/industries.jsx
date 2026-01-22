@@ -14,12 +14,12 @@ export default function Industries() {
 
 
     return(
-        <Box className="body">
+        <Box>
             <div className="about_banner" style={{padding:'20% 0% 5% 8%',backgroundImage:`url(${Banner})`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover',textAlign:'left',color:'white',position:'relative'}}>
                 <h1 style={{fontWeight:'300',position:'relative'}}>Nos missions - Industries & Services</h1>
             </div>
 
-            <Box className="page_content body_padding">
+            <Box className="page_content body_padding body">
                 <div className="industry_section_one">
                     <p>Notre cabinet capitalise sur une expertise de haut niveau, directement issue des méthodologies rigoureuses des cabinets internationaux majeurs. Cette base de connaissance solide est constamment déployée sur le terrain pour vous accompagner vers l'optimisation maximale de vos performances et la sécurisation méthodique de votre croissance, en transformant les défis de votre secteur en opportunités.</p>
                 </div>
