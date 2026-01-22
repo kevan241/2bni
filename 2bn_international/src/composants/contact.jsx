@@ -47,7 +47,7 @@ export default function Contact() {
     );
 
     return (
-        <Box className="contact_container body">
+        <Box className="contact_container">
             <div className="sous_container_form_banner">
                 <div className="form">
                     <h3>Contactez Nos Experts</h3>
