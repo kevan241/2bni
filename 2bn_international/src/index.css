@@ -1504,9 +1504,6 @@ p.carriere {
     text-align: left;
   }
 
-  .image_company img {
-    height: 43vh !important;
-}
 
 .image_company::after {
     border-radius: 10px;
@@ -1600,10 +1597,11 @@ p.carriere {
 }
 
 .image_company img{     
-   width: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    position: relative;
+  width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 43vh !important;
 }
 
 .image_company {
@@ -2068,10 +2066,6 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
     text-align: left;
   }
 
-  .image_company img {
-    height: 43vh !important;
-}
-
 .image_company::after {
     border-radius: 10px;
     position: absolute;
@@ -2161,9 +2155,10 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 
 .image_company img{     
    width: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    position: relative;
+   height: 43vh !important;
+   object-fit: cover;
+   background-repeat: no-repeat;
+   position: relative;
 }
 
 
