@@ -82,11 +82,11 @@ export default function Heros() {
                             className={`${slide.className} ${index === activeIndex ? 'slide_actif' : ''}`} 
                             style={slideStyle}
                         >
-                            <h1 style={{color: 'white', backgroundColor:'black', textAlign: 'center', fontSize: '3rem'}}>{slide.content}</h1>
+                            <h1 style={{color: 'white', textAlign: 'center', fontSize: '3rem'}}>{slide.content}</h1>
                             <p className='slide_text' style={{color: 'white', textAlign: 'center', fontSize: '1rem'}}>{slide.paragraph}</p>
                             {slide.buttonText && slide.LinkTo && (
                                 <Link to={slide.LinkTo}>
-                                    <button className='btn' style={{color:'white', display: 'block', margin: '20px 0', padding: '13px 35px', fontSize: '1rem'}}>
+                                    <button className='btn' style={{color:'white',backgroundColor:'black', display: 'block', margin: '20px 0', padding: '13px 35px', fontSize: '1rem'}}>
                                         {slide.buttonText}
                                     </button>
                                 </Link>
