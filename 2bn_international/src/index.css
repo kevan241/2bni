@@ -1496,7 +1496,7 @@ p.carriere {
     flex-direction: column;
     display: flex;
     padding: 30px;
-    height: 67vw!important;
+    height: 77vw!important;
 }
 
 .contact_us {
@@ -1520,11 +1520,12 @@ p.carriere {
 .flag_description {
     border: 0.5px solid #ffffff47;
     padding: 0px 30px;
-    width: 80%;
+    width: 75%;
 }
 
 .second_section_container h2 {
-    line-height: 40px;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 
@@ -2056,6 +2057,14 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 }
 
 @media(max-width: 414px){
+
+  
+.first_section_element02{
+  background-color: var(--bleu);
+  padding:30px 15px;
+  flex:8;
+  text-align: left;
+}
 
   .MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.css-1cj4518 {
     font-size: 10px;
