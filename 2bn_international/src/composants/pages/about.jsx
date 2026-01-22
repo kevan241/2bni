@@ -61,7 +61,7 @@ export default function About() {
 
                     <div className="value2">
                         <div className="value_banner"  style={{flex:1,backgroundImage:`url(${img07})`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover',borderRadius:'10px',position:'relative'}}>
-                            <h2 style={{fontWeight:'500',fontSize:'40px',color:'#ffffffa9',zIndex:'800'}}>Nos valeurs</h2>
+                            <h2 style={{fontWeight:'500',fontSize:'40px',color:'#ffffffa9',zIndex:'60'}}>Nos valeurs</h2>
                         </div>
                         <div className="icon_banner">
                             <div className="value_text"><span className="value_img_icon"><img src={img_value01} alt="icon_justice_balance" width="55%"/></span><div className="value_container_description"><span className="description_title">Intégrité</span><span className="description_text">Nous croyons que la confiance est la base de toute collaboration.</span></div></div>
