@@ -1428,6 +1428,32 @@ p.carriere {
 
 @media(max-width: 500px){
 
+
+  .body_section_two .image_company {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 10 / 9;
+    overflow: hidden;
+    background-image: url(/public/assets/img/afrique.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+  .title_section h2 {
+    text-align: left;
+    font-size: 15px;
+}
+
+.image_company .btn {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%)!important;
+  z-index: 2;
+}
+
   .petrole_value_container {
     display: flex;
     flex-direction: column;
@@ -1579,6 +1605,19 @@ p.carriere {
     position: relative;
 }
 
+.image_company {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 10 / 9;
+  overflow: hidden;
+  background-image: url('../public/assets/img/company_banner.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+
+}
+
 
 .body_section_one {
         display: flex;
@@ -1695,13 +1734,13 @@ ease-in-out;
     flex-direction: column;
     color: black;
     overflow: hidden;
-    padding: 50px 30px!important;
+    padding: 50px 20px!important;
     gap: 30px;
 }
 
 
 a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.css-gpcf0w-MuiButtonBase-root-MuiButton-root {
-    top: -50px !important;
+    top: -82px !important;
 }
 
 .mobile_navbar{
@@ -1987,6 +2026,23 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 
 @media(max-width: 414px){
 
+  .body_section_two .image_company {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 10 / 9;
+    overflow: hidden;
+    background-image: url(/public/assets/img/afrique.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+  .title_section h2 {
+    text-align: left;
+    font-size: 15px;
+}
+
 .slide_text{
   display:block;
 }
@@ -2110,6 +2166,19 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 }
 
 
+.image_company {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 10 / 9;
+  overflow: hidden;
+  background-image: url('../public/assets/img/company_banner.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+
+}
+
 .body_section_one {
         display: flex;
         flex-direction: column-reverse;
@@ -2229,13 +2298,13 @@ ease-in-out;
     flex-direction: column;
     color: black;
     overflow: hidden;
-    padding: 50px 30px!important;
+    padding: 50px 20px!important;
     gap: 30px;
 }
 
 
 a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.css-gpcf0w-MuiButtonBase-root-MuiButton-root {
-    top: -50px !important;
+    top: -82px !important;
 }
 }
 
@@ -2243,6 +2312,14 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
   .navbar-content {
     font-size: 10px;
     font-weight: 700;
+}
+
+.image_company .btn {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%)!important;
+  z-index: 2;
 }
 
 .industry_section_one {
