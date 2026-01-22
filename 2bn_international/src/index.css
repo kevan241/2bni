@@ -319,9 +319,6 @@ ul a {
   gap: 0px;
 }
 
-.body_section_two.desktop_only {
-    border-radius: 10px 10px 0 0;
-}
 
 .service_controler{
   color: var(--body)!important;
@@ -336,7 +333,7 @@ ul a {
 
 
 .body_section_two .image_company::after{
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -1429,6 +1426,11 @@ p.carriere {
 
 @media(max-width: 500px){
 
+  .MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.css-1cj4518 {
+    font-size: 13px;
+    padding: 7px!important;
+}
+
 
   .logo_2bn {
     padding: 0 !important;
@@ -1594,7 +1596,7 @@ p.carriere {
 }
 
 .body_section_two .image_company::after {
-    border-radius: 10px;
+  border-radius: 10px 10px 0 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -2034,6 +2036,11 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 
 @media(max-width: 414px){
 
+  root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.css-1cj4518 {
+    font-size: 13px;
+    padding: 7px;
+}
+
   .logo_2bn {
     padding: 0 !important;
 }
@@ -2159,7 +2166,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 }
 
 .body_section_two .image_company::after {
-    border-radius: 10px;
+  border-radius: 10px 10px 0 0;
     position: absolute;
     top: 0;
     left: 0;

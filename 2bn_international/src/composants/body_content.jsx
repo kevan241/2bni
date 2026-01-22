@@ -18,28 +18,17 @@ export default function Body_content() {
                     <p>Depuis 2015, une expertise concrète s’est forgée au cœur des réalités africaines et internationales. Fort d’un parcours consolidé par des missions à fort enjeu dans plus de 6 pays, notre équipe regroupe des experts-comptables diplômés, anciens managers de grands cabinets internationaux.<br/>
                         Nous mettons cette richesse d’expérience au service de nos clients, dans des secteurs stratégiques comme les assurances, l’énergie, les industries extractives ou encore les services publics.
                         Notre approche repose sur des pratiques éprouvées, une maîtrise des référentiels internationaux (IFRS, CIMA, ARCA).</p>
-                        <p>
                             <ul style={{fontWeight:'bold'}}>
                                 <li>10+ années d’expérience cumulée dans l’audit, le conseil et la finance</li>
                                 <li>Une équipe pluridisciplinaire d’experts-comptables, consultants et docteurs en gestion</li>
                                 <li>Des missions menées dans 6 pays d’Afrique de l’Ouest et Centrale</li>
                                 <li>Une forte expertise sectorielle (assurances, oil & gas, mines, secteur public)</li>
                             </ul>
-                        </p>
                 </div>
                 <div className="image_company">
                         <Button className="btn" component={Link} to="/about" variant="contained" sx={{marginTop:'0%',fontSize:'12px!important',textTransform:'unset!important', padding:'1% 5%', borderRadius:'30px',backgroundColor:'#ffffffe9',color:"#032859",fontWeight:'bold',zIndex:80}}>Découvrez nous</Button>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
 
             <div className="body_section_two ">
                 <div className="description_company">
