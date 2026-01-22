@@ -68,7 +68,7 @@ export default function Carriere() {
     );
 
     return (
-        <Box className="body">
+        <Box>
             <div className="about_banner contact_banner mobile_banner" style={{padding:'13% 0% 3% 8%',backgroundImage:`url(${Banner})`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover',textAlign:'left',color:'white',position:'relative'}}>
                 <h1 style={{fontWeight:'300',position:'relative'}}>Rejoignez nos équipes</h1>
             </div>

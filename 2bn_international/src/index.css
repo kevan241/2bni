@@ -1313,6 +1313,8 @@ p.carriere {
     font-family: 'Inter';
     font-size: 15px;
     line-height: 25px;
+    text-align: left;
+    padding: 20px 25px 20px 10px;
 }
 
 .logo_2bn{
@@ -1942,7 +1944,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
 }
 
 .contact_banner {
-        padding: 22% 20% 5% 8% !important;
+        padding: 50% 20% 5% 8% !important;
     }
 
 
@@ -2053,10 +2055,18 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
     padding: 0% 10% 0% 0;
 }
 
+form {
+    padding: 0 27px 25px 10px;
+}
+
 
 }
 
 @media(max-width: 414px){
+
+  form {
+    padding: 0 27px 25px 10px;
+}
 
 
   .content02 {
