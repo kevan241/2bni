@@ -1450,6 +1450,7 @@ p.carriere {
 .image_company .btn {
   position: absolute;
   bottom: 40px;
+  width: 60%;
   left: 50%;
   transform: translateX(-50%)!important;
   z-index: 2;
@@ -2313,6 +2314,7 @@ a.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrima
 .image_company .btn {
   position: absolute;
   bottom: 40px;
+  width: 60%;
   left: 50%;
   transform: translateX(-50%)!important;
   z-index: 2;
