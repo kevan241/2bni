@@ -54,7 +54,7 @@ export default function Body_content() {
                 </div>
                 <div className="image_company">
                     <img src={CompanyMap} alt="company_banner" style={{width:'100%', height:'100%', objectFit:'cover',backgroundRepeat:'no-repeat',position:'relative'}}/>
-                        <Button component={Link} to="/assurances" variant="contained" sx={{marginTop:'-20%',fontSize:'12px!important',textTransform:'unset!important', padding:'1% 5%', borderRadius:'30px',backgroundColor:'#ffffffe9',color:"#032859",fontWeight:'bold',zIndex:80}}>Découvrez nos missions</Button>
+                        <Button className="btn" component={Link} to="/assurances" variant="contained" sx={{fontSize:'12px!important',textTransform:'unset!important', padding:'1% 5%', borderRadius:'30px',backgroundColor:'#ffffffe9',color:"#032859",fontWeight:'bold',zIndex:80}}>Découvrez nos missions</Button>
                 </div>
             </div>
 
