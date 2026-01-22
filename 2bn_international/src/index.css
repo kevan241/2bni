@@ -1734,7 +1734,7 @@ ease-in-out;
     flex-direction: column;
     color: black;
     overflow: hidden;
-    padding: 50px 20px!important;
+    padding: 50px 20px 25px 20px!important;
     gap: 30px;
 }
 
@@ -2295,7 +2295,7 @@ ease-in-out;
     flex-direction: column;
     color: black;
     overflow: hidden;
-    padding: 50px 20px!important;
+    padding: 50px 20px 25px 20px!important;
     gap: 30px;
 }
 
