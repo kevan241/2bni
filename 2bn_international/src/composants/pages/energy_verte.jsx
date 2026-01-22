@@ -7,7 +7,7 @@ import team from '/assets/img/energy_vert/team.webp';
 export default function EnergyVerte() {
     const [currentSlide, setCurrentSlide] = useState(0);
     return(
-        <Box className="body">
+        <Box>
             <div className="about_banner" style={{padding:'20% 0% 5% 8%',backgroundImage:`url(${Banner})`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover',textAlign:'left',color:'white',position:'relative'}}>
                 <h1 style={{fontWeight:'300',position:'relative'}}>Nos missions - Secteur Énergie & Conseil Vert</h1>
             </div>
@@ -17,7 +17,7 @@ export default function EnergyVerte() {
                 <div className="energy_picture"><img src={section_one} alt="deux_fermiere_qui_discute" width="65%"/></div>
             </div>
 
-            <Box className="page_content body_padding">
+            <Box className="page_content body_padding body">
                 <div className="energy_section_two">
                     <div className="energy_section_two_item">
                         <h3>1. Optimisation du Système Énergétique et Transition</h3>
