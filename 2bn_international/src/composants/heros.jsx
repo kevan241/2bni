@@ -12,7 +12,7 @@ export default function Heros() {
         {
             className: 'hero hero_slide01',
             style: { background: `url(${Slider})`, backgroundSize: 'cover',backgroundPosition:'center', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'baseline'},
-            content: 'Votre partenaire comptable de confiance, ici et ailleurs', 
+            content: 'Votre partenaire de confiance, ici et ailleurs', 
             paragraph: 'Chez 2BN International, nous aidons entreprises, professionnels et institutions à structurer leur avenir financier avec rigueur, clarté et vision. De la comptabilité locale à l’expansion internationale, nous sommes à vos côtés à chaque étape.',
             buttonText:'En savoir plus',
             LinkTo:'/about'
