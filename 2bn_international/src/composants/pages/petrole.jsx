@@ -1,7 +1,7 @@
 import {useState} from "react";
 import { Box } from "@mui/material";
-import Banner from '/assets/img/petrolier/petrolier_banner.jpg';
-import team from '/assets/img/petrolier/2bn_team-_1_.jpg';
+import Banner from '/assets/img/petrolier/petrolier_banner.webp';
+import team from '/assets/img/petrolier/2bn_team.webp';
 import flag01 from '/assets/img/petrolier/country/chad.webp';
 import flag02 from '/assets/img/petrolier/country/mali.webp';
 import flag03 from '/assets/img/petrolier/country/niger.webp';
