@@ -27,7 +27,7 @@ export default function Petrole() {
 
         const secteurMineTitle = [
             {title:"Audit technique des projets miniers."},
-            {title:"Audit comptable et financier des projets."},
+            {title:"Audit et conformité financière des projets."},
             {title:"Audit de la conformité des opérations minières"},
             {title:"Audit environnemental des projets miniers."},
             {title:"Établissement d'un manuel de suivi des projets"},
@@ -39,7 +39,7 @@ export default function Petrole() {
         const paysFlag = [
             {pays: 'Sénégal', flag: flag04, description:"Audit des Coûts Pétroliers ou Cost Oil Audit"},
             {pays: 'Niger', flag: flag03, description:"Audit des Coûts Pétroliers ou Cost Oil Audit"},
-            {pays: 'Mali', flag: flag02, description:" Ministère de l’Economie et des finances- Audit financier et comptables des mines d’or en activités"},
+            {pays: 'Mali', flag: flag02, description:" Ministère de l'Economie et des finances- Audit des mines d'or en activités"},
             {pays: 'Tchad', flag: flag01, description:"Audit des Coûts Pétroliers ou Cost Oil Audit"},
         ]
 
@@ -60,9 +60,9 @@ export default function Petrole() {
             <Box className="page_content body_padding petrole_page">
                 <div className="first_section_container overflow_hidden">
                     <div className="first_section_element01 overflow_hidden"><p>Nous sommes en mesure de comprendre les projets pétroliers et miniers et de vous proposer des solutions adaptées.
-                        <br /><br />Nous avons accompagné plusieurs États dans l'audit des coûts pétroliers, l'audit technique et comptable des projets miniers, ainsi que dans l'audit des contrats de marketing agreement, avec des résultats très satisfaisants.</p></div>
+                        <br /><br />Nous avons accompagné plusieurs États dans l'audit des coûts pétroliers, l'audit technique et financier des projets miniers, ainsi que dans l'audit des contrats de marketing agreement, avec des résultats très satisfaisants.</p></div>
                     <div className="first_section_element02 overflow_hidden"><div className="secteur_title"><span 
-                                className={`petrol_gas_title ${activeSecteur === 'petrol_gas' ? 'span_active' : ''}`}onClick={() => setActiveSecteur('petrol_gas')}>Pétrole et Gas</span>  <span className={`mining_title ${activeSecteur === 'mining' ? 'span_active' : ''}`} onClick={() => setActiveSecteur('mining')}>Secteur Minier</span></div> <div className="expertise_company"><p>Grâce à notre expertise, nous intervenons sur un large éventail de missions d'audit et de conseil, en proposant des solutions sur mesure et à forte valeur ajoutée.</p></div> 
+                                className={`petrol_gas_title ${activeSecteur === 'petrol_gas' ? 'span_active' : ''}`}onClick={() => setActiveSecteur('petrol_gas')}>Pétrole et Gas</span>  <span className={`mining_title ${activeSecteur === 'mining' ? 'span_active' : ''}`} onClick={() => setActiveSecteur('mining')}>Secteur Minier</span></div> <div className="expertise_company"><p>Grâce à notre expertise, nous intervenons sur un large éventail de missions de conseil et d'audit, en proposant des solutions sur mesure et à forte valeur ajoutée.</p></div> 
                         <div className="secteur_content">{displayedTitles.map((item, index) => (<span key={index} className="secteur_item">{item.title}</span>))}</div></div>
                 </div>
 

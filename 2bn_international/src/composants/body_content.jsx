@@ -15,12 +15,12 @@ export default function Body_content() {
             <div className="body_section_one">
                 <div className="description_company">
                     <h2>Une expérience qui fait la différence !</h2>
-                    <p>Depuis 2015, une expertise concrète s’est forgée au cœur des réalités africaines et internationales. Fort d’un parcours consolidé par des missions à fort enjeu dans plus de 6 pays, notre équipe regroupe des experts-comptables diplômés, anciens managers de grands cabinets internationaux.<br/>
+                    <p>Depuis 2015, une expertise concrète s'est forgée au cœur des réalités africaines et internationales. Fort d'un parcours consolidé par des missions à fort enjeu dans plus de 6 pays, notre équipe regroupe des experts diplômés, anciens managers de grands cabinets internationaux.<br/>
                         Nous mettons cette richesse d’expérience au service de nos clients, dans des secteurs stratégiques comme les assurances, l’énergie, les industries extractives ou encore les services publics.
                         Notre approche repose sur des pratiques éprouvées, une maîtrise des référentiels internationaux (IFRS, CIMA, ARCA).</p>
                             <ul style={{fontWeight:'bold'}}>
-                                <li>10+ années d’expérience cumulée dans l’audit, le conseil et la finance</li>
-                                <li>Une équipe pluridisciplinaire d’experts-comptables, consultants et docteurs en gestion</li>
+                                <li>10+ années d'expérience cumulée dans le conseil, l'audit et la finance</li>
+                                <li>Une équipe pluridisciplinaire d'experts, consultants et docteurs en gestion</li>
                                 <li>Des missions menées dans 6 pays d’Afrique de l’Ouest et Centrale</li>
                                 <li>Une forte expertise sectorielle (assurances, oil & gas, mines, secteur public)</li>
                             </ul>

@@ -79,7 +79,7 @@ export default function About() {
                     <div className="global_expert">
                         <div className="global_expert_content section">
                             <div><span style={{fontSize:'35px'}} className="global_expert_content_title">Une équipe d’experts à votre service</span></div>
-                            <div><span className="">Notre force repose sur un collectif de professionnels expérimentés : anciens managers de cabinets internationaux tels que experts-comptables diplômés, spécialistes du secteur financier, assurantiel, extractif et public. Leur diversité de profils et leur complémentarité assurent une vision globale et une exécution précise de chaque mission.</span></div>
+                            <div><span className="">Notre force repose sur un collectif de professionnels expérimentés : anciens managers de cabinets internationaux, experts diplômés, spécialistes du secteur financier, assurantiel, extractif et public. Leur diversité de profils et leur complémentarité assurent une vision globale et une exécution précise de chaque mission.</span></div>
                         </div>
                         <div className="global_img">
                             <img src={img_value05} alt="image_expert_global" width="80%" />

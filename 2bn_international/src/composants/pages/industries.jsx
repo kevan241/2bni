@@ -31,8 +31,8 @@ export default function Industries() {
                 <div className="accordion_item_container first_accordion">
                     <div className="accordion_body">
                         <div className="body_accordion">
-                            <h4>1. Audit, Conseil et Fiscalité Transversaux</h4>
-                            <p>Notre cabinet propose un service complet d'audit, de fiscalité et de conseil, indispensable à la bonne gestion et au développement maîtrisé de votre entreprise.</p>
+                            <h4>1. Conseil, Audit et Fiscalité Transversaux</h4>
+                            <p>Notre cabinet propose un service complet de conseil, d'audit et de fiscalité, indispensable à la bonne gestion et au développement maîtrisé de votre entreprise.</p>
                         </div>
                         <div className="accordion_trigger" onClick={() => toggleAccordion(1)}>
                             <img src={icon_services} alt="icon_ouverture_accordion" width="40px" style={{transform: openAccordion === 1 ? 'rotate(180deg)' : 'rotate(0deg)'}}/>
@@ -40,8 +40,8 @@ export default function Industries() {
                     </div>
                     <div className="accordion_item" style={{display: openAccordion === 1 ? 'block' : 'none'}}>
                         <div className="item01">
-                            <h3>Audit et Certification des Comptes</h3>
-                            <p>Nos Experts-Comptables diplômés réalisent l'audit de vos comptes sociaux et consolidés. Ce service va au-delà de la simple certification : il offre une analyse approfondie et indépendante de vos processus financiers. Nous vous aidons à garantir la fiabilité de vos informations financières et à sécuriser votre conformité réglementaire, permettant une prise de décision éclairée pour l'ensemble de vos parties prenantes.</p>
+                            <h3>Conseil en Certification des Comptes et Audit</h3>
+                            <p>Nos experts diplômés réalisent l'audit de vos comptes sociaux et consolidés. Ce service va au-delà de la simple certification : il offre une analyse approfondie et indépendante de vos processus financiers. Nous vous aidons à garantir la fiabilité de vos informations financières et à sécuriser votre conformité réglementaire, permettant une prise de décision éclairée pour l'ensemble de vos parties prenantes.</p>
                         </div>
 
                         <div className="item02">
@@ -58,7 +58,7 @@ export default function Industries() {
                     <div className="accordion_body">
                         <div className="body_accordion">
                             <h4>2. Optimisation de la Gestion et des Ressources Humaines</h4>
-                            <p>Notre équipe de consultants expérimentés, incluant des Experts-comptables, Doctorants et experts dans les domaines de la gestion des entreprises, la finance, les ressources humaines.</p>
+                            <p>Notre équipe de consultants expérimentés, incluant des experts en conseil, Doctorants et professionnels dans les domaines de la gestion des entreprises, la finance, les ressources humaines.</p>
                         </div>
                         <div className="accordion_trigger" onClick={() => toggleAccordion(2)}>
                             <img src={icon_services} alt="icon_ouverture_accordion" width="40px" style={{transform: openAccordion === 1 ? 'rotate(180deg)' : 'rotate(0deg)'}}/>

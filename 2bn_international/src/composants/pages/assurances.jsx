@@ -31,7 +31,7 @@ export default function Assurances() {
                             Apporter aux compagnies d’assurance, courtiers et institutions financières un accompagnement global alliant :
                         </p>
                             <ul>
-                                <li>Audit rigoureux des processus comptables, financiers et opérationnels</li>
+                                <li>Audit rigoureux des processus financiers et opérationnels</li>
                                 <li>Conseil stratégique pour améliorer la performance et la gouvernance</li>
                                 <li>Mise en conformité avec les normes internationales et locales</li>
                                 <li>Digitalisation des outils de gestion et de reporting</li>
